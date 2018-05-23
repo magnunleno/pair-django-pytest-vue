@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TODO List</title>
+  </head>
+  <body>
+    <h1>TODO List</h1>
+    <ul>
+      {% for o in queryset %}
+      <li>{{o.descricao}}</li>
+      {% endfor %} 
+    </ul>
+  </body>
+</html>
